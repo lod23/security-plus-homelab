@@ -1,2 +1,0 @@
-cd ~/labs/security-plus-homelab/lab-01/evidence
-pbpaste > users-68pct.txt
