@@ -1,0 +1,8 @@
+
+DisplayName                         Enabled Direction Action
+-----------                         ------- --------- ------
+Remote Desktop - Shadow (TCP-In)      False   Inbound  Allow
+Remote Desktop - User Mode (TCP-In)   False   Inbound  Allow
+Remote Desktop - User Mode (UDP-In)   False   Inbound  Allow
+
+

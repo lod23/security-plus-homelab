@@ -1,0 +1,26 @@
+# Lab 1.1 — RAID 1 + File Integrity Monitoring
+
+## What this covers
+Mirrored storage for redundancy, then Windows audit policy to detect
+file changes on that volume.
+
+## Procedure
+1. Create two equal-sized virtual disks, leave them unallocated
+2. Convert both to dynamic disks
+3. Create a mirrored volume across them, format NTFS, label "RAID 1 VOL"
+4. Enable Object Access > File System auditing (Success + Failure)
+5. Attach a SACL to the target folder via Properties > Security >
+   Advanced > Auditing
+6. Modify a file in that folder
+7. Filter Security log for 4656, 4663, 4660
+
+## Key insight
+Audit policy and SACL are two separate switches. Both must be on or
+nothing logs. This is the thing that trips people up.
+
+## Event IDs
+- 4656 — handle requested
+- 4663 — object accessed
+- 4660 — object deleted
+
+
