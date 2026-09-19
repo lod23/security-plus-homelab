@@ -1,0 +1,11 @@
+
+
+ComputerName     : MAD-DC1
+RemoteAddress    : fe80::ed63:d8b7:1588:5c7%17
+RemotePort       : 3389
+InterfaceAlias   : Ethernet 4
+SourceAddress    : fe80::ed63:d8b7:1588:5c7%17
+TcpTestSucceeded : True
+
+
+

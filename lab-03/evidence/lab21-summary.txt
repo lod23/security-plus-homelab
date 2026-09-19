@@ -1,0 +1,102 @@
+=== HOST ===
+XLAB-UBUNTU1
+Sat Sep 19 03:31:36 AM CDT 2026
+OpenSSL 3.0.2 15 Mar 2022 (Library: OpenSSL 3.0.2 15 Mar 2022)
+
+=== ALICE DIR ===
+total 16
+-rw-rw-r-- 1 xlabadmin xlabadmin   24 Sep 17 11:08 alice_digest.txt
+-rw------- 1 xlabadmin xlabadmin 1704 Sep 17 11:02 alice_privatekey.pem
+-rw-rw-r-- 1 xlabadmin xlabadmin  451 Sep 17 11:02 alice_publickey.pem
+-rw-rw-r-- 1 xlabadmin xlabadmin  256 Sep 17 11:14 alice_signature.bin
+
+=== BOB DIR ===
+total 12
+-rw-rw-r-- 1 xlabadmin xlabadmin  32 Sep 17 11:20 alice_digest.txt
+-rw-rw-r-- 1 xlabadmin xlabadmin 451 Sep 17 11:19 alice_publickey.pem
+-rw-rw-r-- 1 xlabadmin xlabadmin 256 Sep 17 11:19 alice_signature.bin
+
+=== ALICE PUBLIC KEY ===
+-----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA16h70uPz6uSO+uCnYSWh
+NxWTNgR7WuxGpPZkqH7mVVmnKVr4fjvRw7I/G7VZ+V8MqK//nOUVNtjbaK6rI+sF
+z8hsZCeI19qzzeefaCxgvA68Ti+RUcmPpMMIcANCzJptT9nNo+4eOS7Wp6MB6Gxz
+nTQzxQ45eiNCcVR3sBbYbDJUWCTA33SmZbJi/qNgF7qC77nhlajeHsIKsYxqRc9S
+H/Pqtc1Om5zSLkwZ7O5PS9RCVU9AWNlSkPZLLb/vuTYz9UhVHbGX3LF/hOCxwFLx
+h3AOw0iGhMqfASju9tL6dRFU6KT/VZHtCg4Ps0HzeNSIqQSq888MwPksnEwVi6NU
+4QIDAQAB
+-----END PUBLIC KEY-----
+
+=== CSR ===
+-----BEGIN CERTIFICATE REQUEST-----
+MIIC2zCCAcMCAQAwgZUxCzAJBgNVBAYTAlVTMREwDwYDVQQIDAhDb2xvcmFkbzEP
+MA0GA1UEBwwGRGVudmVyMRMwEQYDVQQKDApTZWNQbHVzTExDMQ4wDAYDVQQLDAVh
+ZG1pbjEYMBYGA1UEAwwPU2VjUGx1cyBTdHVkZW50MSMwIQYJKoZIhvcNAQkBFhRh
+ZG1pbkBTZWNQbHVzTExDLmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoC
+ggEBANaOIwHedy7KUJDsi1dFKsr4QrKf5Kpj7yJ/RmpBVw8wYEL04v/FZh1lQifC
+Wdht7Gur5qtXXRFgR1aT5k1bUpdviea55QvFBKin8Dby3Vt09nDERvWjtMuD6bxh
+Wtg2j/Yqt6ijNiK66nyCfBC1Rj5J5Z2X1DCBy627ntLwi12LySt7ywg0V/32g+KG
+VITqcVjb6QZ5BsQVWKv7NY/+LxzES9MrKO0/nIp3dCmjsqVamW+atzk4CYbtIEtX
+oUwXjYomvdHhdBeJxO3YVMhDZsDgPyYDMZFFZ9Ey2pJ8yuhDekIAsWGVnHTRVyTI
+Hr1TBuQ4GpgBZc7ZLegkH46YmT8CAwEAAaAAMA0GCSqGSIb3DQEBCwUAA4IBAQAu
+HTFxccW4yPFUrA0bwnGr1H1A9m37sw64WaJ4B189RujDy8o7N/234cch1mjQprMC
+R9kGZkBdwu7yRm6va4sHsmFB0ZIoE34l6o+k0WGyWUIqrAAAvato/FVbTJrVsu6w
+e+yh5Li8VprXfNWpsmFZmY7J/tSH2DMa9GKcqS7HAIA6VNGUa/Z+6eY/jo6ZjoGs
+EY1/RdVbmSmajny3lWd8IAEXng1468G2NJzdes9+DCQcDBNsxnLbGw91HZ469Ozg
+G63YTu9MqOSBhvzbQUY+KTV58MeUIuFt1YJn+5k/FG5oe+k36RJT4Brs8cwTBeAr
+LIduyvhM3GF86u4zY5pA
+-----END CERTIFICATE REQUEST-----
+
+=== CSR DECODED ===
+Certificate Request:
+    Data:
+        Version: 1 (0x0)
+        Subject: C = US, ST = Colorado, L = Denver, O = SecPlusLLC, OU = admin, CN = SecPlus Student, emailAddress = admin@SecPlusLLC.com
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:d6:8e:23:01:de:77:2e:ca:50:90:ec:8b:57:45:
+                    2a:ca:f8:42:b2:9f:e4:aa:63:ef:22:7f:46:6a:41:
+                    57:0f:30:60:42:f4:e2:ff:c5:66:1d:65:42:27:c2:
+                    59:d8:6d:ec:6b:ab:e6:ab:57:5d:11:60:47:56:93:
+                    e6:4d:5b:52:97:6f:89:e6:b9:e5:0b:c5:04:a8:a7:
+                    f0:36:f2:dd:5b:74:f6:70:c4:46:f5:a3:b4:cb:83:
+                    e9:bc:61:5a:d8:36:8f:f6:2a:b7:a8:a3:36:22:ba:
+                    ea:7c:82:7c:10:b5:46:3e:49:e5:9d:97:d4:30:81:
+                    cb:ad:bb:9e:d2:f0:8b:5d:8b:c9:2b:7b:cb:08:34:
+                    57:fd:f6:83:e2:86:54:84:ea:71:58:db:e9:06:79:
+                    06:c4:15:58:ab:fb:35:8f:fe:2f:1c:c4:4b:d3:2b:
+                    28:ed:3f:9c:8a:77:74:29:a3:b2:a5:5a:99:6f:9a:
+                    b7:39:38:09:86:ed:20:4b:57:a1:4c:17:8d:8a:26:
+                    bd:d1:e1:74:17:89:c4:ed:d8:54:c8:43:66:c0:e0:
+                    3f:26:03:31:91:45:67:d1:32:da:92:7c:ca:e8:43:
+                    7a:42:00:b1:61:95:9c:74:d1:57:24:c8:1e:bd:53:
+                    06:e4:38:1a:98:01:65:ce:d9:2d:e8:24:1f:8e:98:
+                    99:3f
+                Exponent: 65537 (0x10001)
+        Attributes:
+            (none)
+            Requested Extensions:
+    Signature Algorithm: sha256WithRSAEncryption
+    Signature Value:
+        2e:1d:31:71:71:c5:b8:c8:f1:54:ac:0d:1b:c2:71:ab:d4:7d:
+        40:f6:6d:fb:b3:0e:b8:59:a2:78:07:5f:3d:46:e8:c3:cb:ca:
+        3b:37:fd:b7:e1:c7:21:d6:68:d0:a6:b3:02:47:d9:06:66:40:
+        5d:c2:ee:f2:46:6e:af:6b:8b:07:b2:61:41:d1:92:28:13:7e:
+        25:ea:8f:a4:d1:61:b2:59:42:2a:ac:00:00:bd:ab:68:fc:55:
+        5b:4c:9a:d5:b2:ee:b0:7b:ec:a1:e4:b8:bc:56:9a:d7:7c:d5:
+        a9:b2:61:59:99:8e:c9:fe:d4:87:d8:33:1a:f4:62:9c:a9:2e:
+        c7:00:80:3a:54:d1:94:6b:f6:7e:e9:e6:3f:8e:8e:99:8e:81:
+        ac:11:8d:7f:45:d5:5b:99:29:9a:8e:7c:b7:95:67:7c:20:01:
+        17:9e:0d:78:eb:c1:b6:34:9c:dd:7a:cf:7e:0c:24:1c:0c:13:
+        6c:c6:72:db:1b:0f:75:1d:9e:3a:f4:ec:e0:1b:ad:d8:4e:ef:
+        4c:a8:e4:81:86:fc:db:41:46:3e:29:35:79:f0:c7:94:22:e1:
+        6d:d5:82:67:fb:99:3f:14:6e:68:7b:e9:37:e9:12:53:e0:1a:
+        ec:f1:cc:13:05:e0:2b:2c:87:6e:ca:f8:4c:dc:61:7c:ea:ee:
+        33:63:9a:40
+
+=== VERIFY ===
+809B318E57750000:error:02000068:rsa routines:ossl_rsa_verify:bad signature:../crypto/rsa/rsa_sign.c:430:
+809B318E57750000:error:1C880004:Provider routines:rsa_verify:RSA lib:../providers/implementations/signature/rsa_sig.c:774:
+Verification failure

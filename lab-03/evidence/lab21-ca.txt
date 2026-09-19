@@ -1,0 +1,103 @@
+=== CA DIR ===
+total 12
+-rw------- 1 xlabadmin xlabadmin 1704 Sep 19 03:49 CA_privatekey.pem
+-rw-rw-r-- 1 xlabadmin xlabadmin 1448 Sep 19 03:50 SecPlusLLC.crt
+-rw-rw-r-- 1 xlabadmin xlabadmin 1066 Sep 17 11:30 SecPlusLLC.csr
+
+=== SECPLUSLLC DIR ===
+total 12
+-rw-rw-r-- 1 xlabadmin xlabadmin 1448 Sep 19 03:50 SecPlusLLC.crt
+-rw-rw-r-- 1 xlabadmin xlabadmin 1066 Sep 17 11:29 SecPlusLLC.csr
+-rw------- 1 xlabadmin xlabadmin 1854 Sep 17 11:27 SecPlusLLC_privatekey.pem
+
+=== SIGNED CERT (PEM) ===
+-----BEGIN CERTIFICATE-----
+MIID/zCCAuegAwIBAgIUUgnyiyKQRrf2p4zsugTg8yVZjyYwDQYJKoZIhvcNAQEL
+BQAwgY4xCzAJBgNVBAYTAlVTMREwDwYDVQQIDAhOZXcgWW9yazEWMBQGA1UEBwwN
+TmV3IFlvcmsgQ2l0eTERMA8GA1UECgwIQ2VydEF1dGgxDjAMBgNVBAsMBWFkbWlu
+MQ4wDAYDVQQDDAVhZG1pbjEhMB8GCSqGSIb3DQEJARYSYWRtaW5AY2VydGF1dGgu
+Y29tMB4XDTI2MDkxOTA4NTAxMVoXDTMyMDMxMDA4NTAxMVowgY4xCzAJBgNVBAYT
+AlVTMREwDwYDVQQIDAhOZXcgWW9yazEWMBQGA1UEBwwNTmV3IFlvcmsgQ2l0eTER
+MA8GA1UECgwIQ2VydEF1dGgxDjAMBgNVBAsMBWFkbWluMQ4wDAYDVQQDDAVhZG1p
+bjEhMB8GCSqGSIb3DQEJARYSYWRtaW5AY2VydGF1dGguY29tMIIBIjANBgkqhkiG
+9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuCl+dFX6dO3RhP4+fgEz5qmB6f+wfvrICrqz
+cIt/uyhbu/PN1R0MPCvO3cRw5DNDEudzuT0Q0rpDvzOCP35qTg+6IMpErWXJ+aY+
+3pDH3XVP6/y6RV47pI0rbsddG7uwBLuuiz4aGzhgRIkc1g6q8go22WHsxvVKN6r+
+aZ6scnrolflb6SnQ1LYDSxvWzZQMr0qxt/qzMpUdKQQOt9fOUZirZ1ZErSQnjQfU
+AkIbfhG8j5+VW/g/x8VeFYt3xKssNYDawdJaXcnHf7Rclslb4xfL5e6fKmX7emSf
+feVEbZQCBLwShzyjhtNaZUNN+fFALbS4xAtjVzWWu+UGt/ZXwwIDAQABo1MwUTAd
+BgNVHQ4EFgQUL6ucsM6rb4IjSVFrRsRB3sV6v+wwHwYDVR0jBBgwFoAUL6ucsM6r
+b4IjSVFrRsRB3sV6v+wwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOC
+AQEAM6VaX+peO8NnSlJRd335/b/z6l9ywsPPS27citatyWBBD38gUU+ZVBAs/32n
+yCY5w6N5Hr/YqV8W8LPcnZqeA/J51npOiP2g40pFp73h3XIgww+q++ym8LCqCW3t
+9adipkrDkpzIOam2BK8AXcyVhCr7w7F+U0pSVS+Py+3efQt//41IS4KUMvYfbSAB
+j9BmjYFOHRV378XZyqAbNNznxscfZaoCkkaebBcXAuvopAvaTnJdci+jPHlgfsEW
+X2iqpaugS5wtLYLShXXtO0dq2aLxWlbWjrPuAoorq+pCWqoTbf2a2sdowsTGgdBL
+5veoPj4CKZBg/gIUiPjAATuyXQ==
+-----END CERTIFICATE-----
+
+=== CERT DECODED ===
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            52:09:f2:8b:22:90:46:b7:f6:a7:8c:ec:ba:04:e0:f3:25:59:8f:26
+        Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C = US, ST = New York, L = New York City, O = CertAuth, OU = admin, CN = admin, emailAddress = admin@certauth.com
+        Validity
+            Not Before: Sep 19 08:50:11 2026 GMT
+            Not After : Mar 10 08:50:11 2032 GMT
+        Subject: C = US, ST = New York, L = New York City, O = CertAuth, OU = admin, CN = admin, emailAddress = admin@certauth.com
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:b8:29:7e:74:55:fa:74:ed:d1:84:fe:3e:7e:01:
+                    33:e6:a9:81:e9:ff:b0:7e:fa:c8:0a:ba:b3:70:8b:
+                    7f:bb:28:5b:bb:f3:cd:d5:1d:0c:3c:2b:ce:dd:c4:
+                    70:e4:33:43:12:e7:73:b9:3d:10:d2:ba:43:bf:33:
+                    82:3f:7e:6a:4e:0f:ba:20:ca:44:ad:65:c9:f9:a6:
+                    3e:de:90:c7:dd:75:4f:eb:fc:ba:45:5e:3b:a4:8d:
+                    2b:6e:c7:5d:1b:bb:b0:04:bb:ae:8b:3e:1a:1b:38:
+                    60:44:89:1c:d6:0e:aa:f2:0a:36:d9:61:ec:c6:f5:
+                    4a:37:aa:fe:69:9e:ac:72:7a:e8:95:f9:5b:e9:29:
+                    d0:d4:b6:03:4b:1b:d6:cd:94:0c:af:4a:b1:b7:fa:
+                    b3:32:95:1d:29:04:0e:b7:d7:ce:51:98:ab:67:56:
+                    44:ad:24:27:8d:07:d4:02:42:1b:7e:11:bc:8f:9f:
+                    95:5b:f8:3f:c7:c5:5e:15:8b:77:c4:ab:2c:35:80:
+                    da:c1:d2:5a:5d:c9:c7:7f:b4:5c:96:c9:5b:e3:17:
+                    cb:e5:ee:9f:2a:65:fb:7a:64:9f:7d:e5:44:6d:94:
+                    02:04:bc:12:87:3c:a3:86:d3:5a:65:43:4d:f9:f1:
+                    40:2d:b4:b8:c4:0b:63:57:35:96:bb:e5:06:b7:f6:
+                    57:c3
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Subject Key Identifier: 
+                2F:AB:9C:B0:CE:AB:6F:82:23:49:51:6B:46:C4:41:DE:C5:7A:BF:EC
+            X509v3 Authority Key Identifier: 
+                2F:AB:9C:B0:CE:AB:6F:82:23:49:51:6B:46:C4:41:DE:C5:7A:BF:EC
+            X509v3 Basic Constraints: critical
+                CA:TRUE
+    Signature Algorithm: sha256WithRSAEncryption
+    Signature Value:
+        33:a5:5a:5f:ea:5e:3b:c3:67:4a:52:51:77:7d:f9:fd:bf:f3:
+        ea:5f:72:c2:c3:cf:4b:6e:dc:8a:d6:ad:c9:60:41:0f:7f:20:
+        51:4f:99:54:10:2c:ff:7d:a7:c8:26:39:c3:a3:79:1e:bf:d8:
+        a9:5f:16:f0:b3:dc:9d:9a:9e:03:f2:79:d6:7a:4e:88:fd:a0:
+        e3:4a:45:a7:bd:e1:dd:72:20:c3:0f:aa:fb:ec:a6:f0:b0:aa:
+        09:6d:ed:f5:a7:62:a6:4a:c3:92:9c:c8:39:a9:b6:04:af:00:
+        5d:cc:95:84:2a:fb:c3:b1:7e:53:4a:52:55:2f:8f:cb:ed:de:
+        7d:0b:7f:ff:8d:48:4b:82:94:32:f6:1f:6d:20:01:8f:d0:66:
+        8d:81:4e:1d:15:77:ef:c5:d9:ca:a0:1b:34:dc:e7:c6:c7:1f:
+        65:aa:02:92:46:9e:6c:17:17:02:eb:e8:a4:0b:da:4e:72:5d:
+        72:2f:a3:3c:79:60:7e:c1:16:5f:68:aa:a5:ab:a0:4b:9c:2d:
+        2d:82:d2:85:75:ed:3b:47:6a:d9:a2:f1:5a:56:d6:8e:b3:ee:
+        02:8a:2b:ab:ea:42:5a:aa:13:6d:fd:9a:da:c7:68:c2:c4:c6:
+        81:d0:4b:e6:f7:a8:3e:3e:02:29:90:60:fe:02:14:88:f8:c0:
+        01:3b:b2:5d
+
+=== SUBJECT/ISSUER/DATES ===
+subject=C = US, ST = New York, L = New York City, O = CertAuth, OU = admin, CN = admin, emailAddress = admin@certauth.com
+issuer=C = US, ST = New York, L = New York City, O = CertAuth, OU = admin, CN = admin, emailAddress = admin@certauth.com
+notBefore=Sep 19 08:50:11 2026 GMT
+notAfter=Mar 10 08:50:11 2032 GMT
