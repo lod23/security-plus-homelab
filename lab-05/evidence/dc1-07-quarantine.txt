@@ -1,0 +1,13 @@
+
+
+    Directory: C:\EmailFilter\Quarantine
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----         9/22/2026   5:32 PM           1164 phishing_email1.eml                                                  
+-a----         9/22/2026   6:12 PM            458 phishing_email1.eml.report.txt                                       
+-a----         9/22/2026   5:32 PM           1200 phishing_email2.eml                                                  
+-a----         9/22/2026   6:12 PM            294 phishing_email2.eml.report.txt                                       
+
+

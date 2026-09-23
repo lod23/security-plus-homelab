@@ -1,0 +1,8 @@
+
+
+Caption : Microsoft Windows 10 Enterprise Evaluation
+Version : 10.0.19045
+CSName  : MAD-CL1
+
+
+

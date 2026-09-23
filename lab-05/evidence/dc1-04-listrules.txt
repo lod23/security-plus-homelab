@@ -1,0 +1,8 @@
+Current filtering rules:
+1. Dear Valued Customer
+2. update your.*deposit information
+3. security@.*-.*\.com
+4. .*account.*verify.*\.tk
+5. .*payroll.*\.org
+6. failure to verify.*account suspension
+7. URGENT.*compromised

@@ -1,0 +1,14 @@
+Loaded 7 filtering rules
+Found 3 emails to process
+Email passed filters: legitimate_email.eml
+Email quarantined: phishing_email1.eml
+Detections: 5
+- Dear Valued Customer
+- security@.*-.*\.com
+- .*account.*verify.*\.tk
+- failure to verify.*account suspension
+- URGENT.*compromised
+Email quarantined: phishing_email2.eml
+Detections: 2
+- update your.*deposit information
+- .*payroll.*\.org

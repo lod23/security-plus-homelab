@@ -1,0 +1,22 @@
+
+
+Name        : httpd
+Id          : 6000
+Path        : C:\xampp\apache\bin\httpd.exe
+Company     : Apache Software Foundation
+FileVersion : 2.4.58
+
+Name        : httpd
+Id          : 7008
+Path        : c:\xampp\apache\bin\httpd.exe
+Company     : Apache Software Foundation
+FileVersion : 2.4.58
+
+Name        : mysqld
+Id          : 3192
+Path        : c:\xampp\mysql\bin\mysqld.exe
+Company     : 
+FileVersion : 10.4.32.0
+
+
+

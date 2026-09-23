@@ -1,0 +1,20 @@
+
+
+Algorithm : SHA256
+Hash      : C10F1A67DA8913FC4E18095CF5C02F575E46E65B5C213FD9EFBF42743B5F1FC7
+Path      : C:\PhishingAnalysis\analysis.txt
+
+Algorithm : SHA256
+Hash      : FCCAD0DD07397BD123A8DC283895788BD701BF83F77F2F825B1BCACD998FBA35
+Path      : C:\PhishingAnalysis\phishing_checklist.txt
+
+Algorithm : SHA256
+Hash      : 97E3FC72E0DCA286C69453B53ABBFC17CE8D4E7686BAF30762EEF685D0BFEBDE
+Path      : C:\PhishingAnalysis\phishing_sample.txt
+
+Algorithm : SHA256
+Hash      : 86A087E5409F9B47CC3BD6EFA57553A3B7BA62F9203EB28261BC226089A12AF5
+Path      : C:\PhishingAnalysis\phishing_sample2.txt
+
+
+

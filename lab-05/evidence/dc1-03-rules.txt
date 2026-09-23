@@ -1,0 +1,14 @@
+Rule_20260922_173458.rule
+Dear Valued Customer
+Rule_FinancialInfo.rule
+update your.*deposit information
+Rule_SuspiciousDomains1.rule
+security@.*-.*\.com
+Rule_SuspiciousDomains2.rule
+.*account.*verify.*\.tk
+Rule_SuspiciousDomains3.rule
+.*payroll.*\.org
+Rule_ThreateningLanguage.rule
+failure to verify.*account suspension
+Rule_UrgentSubject.rule
+URGENT.*compromised

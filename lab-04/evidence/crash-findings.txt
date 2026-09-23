@@ -1,0 +1,7 @@
+MAD-CL1 Application log, Sep 19 11:08
+  Event 1002 - Application Hang - Adobe Reader
+  Event 1001 - Windows Error Reporting, fault bucket
+
+Adobe Reader 8.1 hung parsing crash.pdf. The hang followed
+immediately by a WER fault bucket is the indicator of attempted
+exploitation.

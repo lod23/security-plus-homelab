@@ -1,0 +1,15 @@
+
+
+legalnoticecaption : COMPANY SECURITY ALERT
+legalnoticetext    : AUTHORIZED ACCESS ONLY
+                     This system is the property of Company Name and is for authorized use only. By using this system, 
+                     you consent to:
+                     - Monitoring of all activities
+                     - Having no expectation of privacy
+                     - Complying with all security policies
+                     Unauthorized access is prohibited and may result in disciplinary action, civil liability, and/or 
+                     criminal prosecution.
+                     REPORT SUSPICIOUS EMAILS AND ACTIVITY TO SECURITY@COMPANY.COM 
+
+
+

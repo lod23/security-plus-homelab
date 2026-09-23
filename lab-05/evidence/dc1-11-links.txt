@@ -1,0 +1,7 @@
+
+DisplayName                    Enabled Enforced Order
+-----------                    ------- -------- -----
+Default Domain Policy             True    False     1
+Security Warning Banner Policy    True     True     2
+
+

@@ -1,0 +1,1 @@
+notepad C:\blueprint\dc1-01-host.txt

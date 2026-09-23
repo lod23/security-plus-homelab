@@ -1,0 +1,20 @@
+
+
+Algorithm : SHA256
+Hash      : D9193E0397D6A60C8BE04C198494C9D67CD4F0DC16E0AC8678B2C6AFEC9A89D8
+Path      : C:\EmailFilter\EmailFilter.ps1
+
+Algorithm : SHA256
+Hash      : 6148F3D8F0A8F9821CAEC428BC0B44E20E676C9635D0F7950313789C274487FE
+Path      : C:\EmailFilter\TestEmails\legitimate_email.eml
+
+Algorithm : SHA256
+Hash      : 27FA35720F3F81B271969E8295EAFE42951D376D5F80213091DD2891B1F89897
+Path      : C:\EmailFilter\TestEmails\phishing_email1.eml
+
+Algorithm : SHA256
+Hash      : 59C0F5AF53FDAF19FF3679CF37014714C1BE6C798E12472E28FABDC3343E2CC5
+Path      : C:\EmailFilter\TestEmails\phishing_email2.eml
+
+
+

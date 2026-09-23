@@ -1,0 +1,12 @@
+System audit policy
+
+Category/Subcategory                      Setting
+Account Logon
+  Kerberos Service Ticket Operations      Success
+
+  Other Account Logon Events              No Auditing
+
+  Kerberos Authentication Service         Success
+
+  Credential Validation                   Success
+

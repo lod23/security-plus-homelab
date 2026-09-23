@@ -1,0 +1,24 @@
+
+
+    Directory: C:\PhishingAnalysis
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----         9/22/2026   5:23 PM            972 analysis.txt                                                         
+-a----         9/22/2026   5:25 PM           1180 phishing_checklist.txt                                               
+-a----         9/22/2026   5:19 PM            580 phishing_sample.txt                                                  
+-a----         9/22/2026   5:20 PM            597 phishing_sample2.txt                                                 
+
+
+
+
+    Directory: C:\Users\Administrator\Desktop
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+-a----         9/22/2026   5:19 PM            580 phishing_sample.txt                                                  
+-a----         9/22/2026   5:20 PM            597 phishing_sample2.txt                                                 
+
+

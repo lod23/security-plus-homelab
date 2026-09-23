@@ -1,0 +1,17 @@
+== phishing_email1.eml.report.txt
+Detections for email: phishing_email1.eml
+Date: 09/22/2026 18:12:42
+Rules triggered:
+- Dear Valued Customer
+- security@.*-.*\.com
+- .*account.*verify.*\.tk
+- failure to verify.*account suspension
+- URGENT.*compromised
+
+== phishing_email2.eml.report.txt
+Detections for email: phishing_email2.eml
+Date: 09/22/2026 18:12:42
+Rules triggered:
+- update your.*deposit information
+- .*payroll.*\.org
+
